@@ -102,7 +102,7 @@
             border-radius: 4px;
             cursor: pointer;
             width: 100%;
-            font-size: 18px;
+            font-size: 17px;
             font-weight: bold;
             text-transform: uppercase;
             margin-top: 10px;
@@ -130,6 +130,7 @@
         .khung-moi-nhu p {
             margin: 5px 0;
             font-size: 14px;
+            line-height: 1.5;
         }
 
         /* ĐÁP ỨNG TRÊN ĐIỆN THOẠI DI ĐỘNG */
@@ -152,15 +153,16 @@
     <div class="nen-trang">
         <div class="khung-noi-dung">
             
-            <h1>BẢNG BÁO GIÁ CƠ SỞ GIA CÔNG VỎ & LẮP RÁP TỦ ĐIỆN DỰ ÁN 2026 (Trạm Biến Áp, MSB, Solar)</h1>
+            <h1>TÌM XƯỞNG TỦ ĐIỆN DỰ ÁN? HÃY CHỌN ĐỐI TÁC SỞ HỮU HỆ SINH THÁI KHÉP KÍN!</h1>
             
-            <h2>Xưởng trực tiếp cắt đột CNC, bóc tách bản vẽ SLD trong 24h. Cam kết tối ưu 15% biên lợi nhuận cho Tổng thầu - Không qua trung gian thương mại.</h2>
+            <h2>Không qua trung gian - Không đứt gãy tiến độ. Xưởng VMT trực tiếp bao thầu trọn gói: Lên bản vẽ THIẾT KẾ (Shop Drawing) ➡️ Cắt đột SẢN XUẤT vỏ CNC ➡️ Đấu nối LẮP RÁP đồng thanh cái chuẩn chỉ.</h2>
 
             <div class="khung-moi-nhu">
-                <p><strong>Khách hàng nhận được gì?</strong></p>
-                <p>✓ Barem giá gia công vỏ tủ form 3B/4B chuẩn công nghiệp.</p>
-                <p>✓ Bảng giá nhân công lắp ráp bóc tách theo từng khối hệ thống.</p>
-                <p>✓ Hồ sơ năng lực thực chiến (kèm ảnh xưởng đang lên khung tủ 35kV và tủ mặt trời).</p>
+                <p><strong>🎁 ĐĂNG KÝ NHẬN NGAY: BỘ TÀI LIỆU & BÁO GIÁ CƠ SỞ "3-TRONG-1" (2026)</strong></p>
+                <p>✓ <strong>Phần 1 - Thiết kế:</strong> Thư viện bản vẽ Form tủ chuẩn dự án (Trạm 35kV, MSB, Solar).</p>
+                <p>✓ <strong>Phần 2 - Sản xuất:</strong> Barem giá gia công vỏ tủ CNC tại xưởng.</p>
+                <p>✓ <strong>Phần 3 - Lắp ráp:</strong> Đơn giá nhân công bóc tách đấu nối theo Ampe/Khối hệ thống.</p>
+                <p style="margin-top: 8px;"><em>(Kèm theo Hồ sơ năng lực thực chiến các dự án đã thi công)</em></p>
             </div>
 
             <!-- BIỂU MẪU ĐƯỢC KẾT NỐI VỚI GOOGLE SHEETS -->
@@ -186,7 +188,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="nut-gui" id="nut-bam-gui">GỬI BÁO GIÁ VÀO ZALO CHO TÔI NGAY</button>
+                <button type="submit" class="nut-gui" id="nut-bam-gui">GỬI TRỌN BỘ BÁO GIÁ VÀ HỒ SƠ VÀO ZALO CHO TÔI</button>
             </form>
 
             <!-- LỜI CẢM ƠN (QUẢN TRỊ TÂM LÝ): HIỆN RA SAU KHI GỬI THÀNH CÔNG -->
@@ -222,7 +224,7 @@
             })
             .catch(error => {
                 alert('Đường truyền mạng có vấn đề, anh vui lòng bấm gửi lại nhé!');
-                document.getElementById('nut-bam-gui').innerText = 'GỬI BÁO GIÁ VÀO ZALO CHO TÔI NGAY';
+                document.getElementById('nut-bam-gui').innerText = 'GỬI TRỌN BỘ BÁO GIÁ VÀ HỒ SƠ VÀO ZALO CHO TÔI';
                 document.getElementById('nut-bam-gui').disabled = false;
             });
         });
